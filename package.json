@@ -1,0 +1,21 @@
+{
+  "name": "hermes-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hermes agent — skeleton Node.js 24 untuk Pterodactyl",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node $(test -f .env && echo '--env-file=.env') src/index.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [
+    "hermes",
+    "agent",
+    "pterodactyl",
+    "nodejs"
+  ],
+  "license": "MIT"
+}
